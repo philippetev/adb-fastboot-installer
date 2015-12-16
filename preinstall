@@ -1,0 +1,20 @@
+#!/bin/bash
+set -x
+InstallDir="$2/usr/local/bin"
+#removing the old version
+"$InstallDir"/adb kill-server > /dev/null 2>&1
+sleep 3
+for tool in "adb" "fastboot"
+do
+	if [ -e "$InstallDir/$tool" ]
+	then
+		rm -f "$InstallDir/$tool"
+	fi
+done
+# removing files from the previous package version if exist
+if [ -e "$2/usr/bin/platform-tools" ]
+then
+	"$2/usr/bin/platform-tools"/adb kill-server
+	sleep 3
+	rm -rf "$2/usr/bin/platform-tools"
+fi
