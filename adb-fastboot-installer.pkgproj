@@ -577,7 +577,7 @@
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
-				<string>24.0.1</string>
+				<string>24.0.2</string>
 			</dict>
 			<key>UUID</key>
 			<string>FA63B764-4201-46B7-99A7-BE3FD4895C73</string>
@@ -655,7 +655,7 @@
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>platform-tools for OS X v.24.0.1</string>
+										<string>platform-tools for OS X v.24.0.2</string>
 									</dict>
 								</array>
 								<key>TOOLTIP</key>
@@ -766,7 +766,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>adb/fastboot for OS X v.24.0.1</string>
+						<string>adb/fastboot for OS X v.24.0.2</string>
 					</dict>
 				</array>
 			</dict>
