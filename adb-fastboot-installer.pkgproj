@@ -577,7 +577,7 @@
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
-				<string>25</string>
+				<string>25.0.1</string>
 			</dict>
 			<key>UUID</key>
 			<string>FA63B764-4201-46B7-99A7-BE3FD4895C73</string>
@@ -597,7 +597,7 @@
 			ZW50LVN0eWxlLVR5cGUiIGNvbnRlbnQ9InRleHQvY3NzIj4KPHRp
 			dGxlPjwvdGl0bGU+CjxtZXRhIG5hbWU9IkdlbmVyYXRvciIgY29u
 			dGVudD0iQ29jb2EgSFRNTCBXcml0ZXIiPgo8bWV0YSBuYW1lPSJD
-			b2NvYVZlcnNpb24iIGNvbnRlbnQ9IjE0MDQuMzQiPgo8c3R5bGUg
+			b2NvYVZlcnNpb24iIGNvbnRlbnQ9IjE0MDQuNDciPgo8c3R5bGUg
 			dHlwZT0idGV4dC9jc3MiPgo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5
 			Pgo8L2JvZHk+CjwvaHRtbD4K
 			</data>
@@ -655,7 +655,7 @@
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>platform-tools for OS X v.25</string>
+										<string>platform-tools for OS X v.25.0.1</string>
 									</dict>
 								</array>
 								<key>TOOLTIP</key>
@@ -766,7 +766,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>adb/fastboot for OS X v.25</string>
+						<string>adb/fastboot for OS X v.25.0.1</string>
 					</dict>
 				</array>
 			</dict>
