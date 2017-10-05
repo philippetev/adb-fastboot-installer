@@ -549,6 +549,12 @@
 				</dict>
 				<key>PAYLOAD_TYPE</key>
 				<integer>0</integer>
+				<key>SHOW_INVISIBLE</key>
+				<false/>
+				<key>SPLIT_FORKS</key>
+				<true/>
+				<key>TREAT_MISSING_FILES_AS_WARNING</key>
+				<false/>
 				<key>VERSION</key>
 				<integer>3</integer>
 			</dict>
@@ -570,15 +576,27 @@
 				<integer>1</integer>
 				<key>CONCLUSION_ACTION</key>
 				<integer>0</integer>
+				<key>FOLLOW_SYMBOLIC_LINKS</key>
+				<false/>
 				<key>IDENTIFIER</key>
 				<string>com.MadMax.pkg.adb-fastboot</string>
+				<key>LOCATION</key>
+				<integer>0</integer>
 				<key>NAME</key>
 				<string>adb-fastboot</string>
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
+				<key>PAYLOAD_SIZE</key>
+				<integer>-1</integer>
+				<key>RELOCATABLE</key>
+				<false/>
+				<key>USE_HFS+_COMPRESSION</key>
+				<false/>
 				<key>VERSION</key>
-				<string>25.0.5</string>
+				<string>26.0.1</string>
 			</dict>
+			<key>TYPE</key>
+			<integer>0</integer>
 			<key>UUID</key>
 			<string>FA63B764-4201-46B7-99A7-BE3FD4895C73</string>
 		</dict>
@@ -616,7 +634,7 @@
 					<integer>1</integer>
 				</dict>
 				<key>CUSTOM</key>
-				<integer>1</integer>
+				<true/>
 				<key>SCALING</key>
 				<integer>0</integer>
 			</dict>
@@ -629,6 +647,8 @@
 						<key>LIST</key>
 						<array>
 							<dict>
+								<key>CHILDREN</key>
+								<array/>
 								<key>DESCRIPTION</key>
 								<array>
 									<dict>
@@ -647,19 +667,15 @@
 								</dict>
 								<key>PACKAGE_UUID</key>
 								<string>FA63B764-4201-46B7-99A7-BE3FD4895C73</string>
-								<key>REQUIREMENTS</key>
-								<array/>
 								<key>TITLE</key>
 								<array>
 									<dict>
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>platform-tools for macOS v.25.0.5</string>
+										<string>platform-tools for macOS v.26.0.1</string>
 									</dict>
 								</array>
-								<key>TOOLTIP</key>
-								<array/>
 								<key>TYPE</key>
 								<integer>0</integer>
 								<key>UUID</key>
@@ -670,8 +686,6 @@
 						<dict/>
 					</dict>
 				</dict>
-				<key>INSTALLATION TYPE</key>
-				<integer>0</integer>
 				<key>MODE</key>
 				<integer>1</integer>
 			</dict>
@@ -741,8 +755,6 @@
 			</dict>
 			<key>LICENSE</key>
 			<dict>
-				<key>KEYWORDS</key>
-				<dict/>
 				<key>LOCALIZATIONS</key>
 				<array/>
 				<key>MODE</key>
@@ -766,7 +778,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>adb/fastboot for macOS v.25.0.5</string>
+						<string>adb/fastboot for macOS v.26.0.1</string>
 					</dict>
 				</array>
 			</dict>
@@ -775,10 +787,6 @@
 		<dict>
 			<key>LIST</key>
 			<array/>
-			<key>POSTINSTALL_PATH</key>
-			<dict/>
-			<key>PREINSTALL_PATH</key>
-			<dict/>
 			<key>RESOURCES</key>
 			<array/>
 			<key>ROOT_VOLUME_ONLY</key>
@@ -786,8 +794,6 @@
 		</dict>
 		<key>PROJECT_SETTINGS</key>
 		<dict>
-			<key>ADVANCED_OPTIONS</key>
-			<dict/>
 			<key>BUILD_FORMAT</key>
 			<integer>0</integer>
 			<key>BUILD_PATH</key>
@@ -967,6 +973,10 @@
 			</array>
 			<key>NAME</key>
 			<string>adb-fastboot-installer</string>
+			<key>PAYLOAD_ONLY</key>
+			<false/>
+			<key>TREAT_MISSING_PRESENTATION_DOCUMENTS_AS_WARNING</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>TYPE</key>
