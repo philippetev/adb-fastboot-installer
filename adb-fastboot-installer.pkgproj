@@ -620,7 +620,7 @@
 				<key>USE_HFS+_COMPRESSION</key>
 				<false/>
 				<key>VERSION</key>
-				<string>28</string>
+				<string>28.0.1</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>
@@ -700,7 +700,7 @@
 										<key>LANGUAGE</key>
 										<string>English</string>
 										<key>VALUE</key>
-										<string>platform-tools for macOS v.28</string>
+										<string>platform-tools for macOS v.28.0.1</string>
 									</dict>
 								</array>
 								<key>TYPE</key>
@@ -805,7 +805,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>adb/fastboot for macOS v.28</string>
+						<string>adb/fastboot for macOS v.28.0.1</string>
 					</dict>
 				</array>
 			</dict>
